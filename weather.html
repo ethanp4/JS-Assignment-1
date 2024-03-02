@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Return</a><br>
+    <label for="input">Input in Fahrenheit </label><input id="input" type="number" onkeyup="convertUnits()" onchange="convertUnits()"><br>
+    <label for="tocelsius">To Celsius</label><input checked onchange="convertUnits()" id="tocelsius" value="celsius" type="radio" name="toUnit">
+    <label for="tokelvin">To Kelvin</label><input onchange="convertUnits()" id="tokelvin" value="kelvin" type="radio" name="toUnit">
+    <br><label for="result">Result </label><input id="result" type="text" disabled>
+
+</body>
+</html>
